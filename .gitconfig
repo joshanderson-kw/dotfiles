@@ -1,0 +1,45 @@
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%ai)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+    name = Josh Anderson
+    email = josh.anderson@kitware.com
+[color]
+    branch = auto
+    diff = auto
+    grep = auto
+    interactive = auto
+    showbranch = auto
+    status = auto
+    ui = auto
+[core]
+    excludesfile = ~/.gitignore.global
+	editor = vim
+	autcrlf = input
+[diff]
+    renameLimit = 1024
+    tool = gvimdiff
+[merge]
+    log = true
+    ff = false
+[pager]
+    branch = false
+    stash = false
+[pull]
+    ff = only
+[push]
+    default = upstream
+[fetch]
+    prune = true
+    recurseSubmodules = on-demand
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    required = true
+    process = git-lfs filter-process
+[rerere]
+    enabled = true
+[gpg]
+    program = gpg2
+[safe]
+	directory = /home/local/KHQ/josh.anderson/Projects/kw-triton-python-models
+	directory = /home/local/KHQ/josh.anderson/Projects/kw-triton-python-models
