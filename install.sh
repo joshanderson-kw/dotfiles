@@ -8,3 +8,6 @@ ln -s ${BASEDIR}/.vim/ ~/.vim
 
 # git
 ln -s ${BASEDIR}/.gitconfig ~/.gitconfig
+
+# bash
+ln -s ${BASEDIR}/.bashrc ~/.bashrc

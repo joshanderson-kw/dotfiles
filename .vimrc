@@ -53,4 +53,3 @@ highlight SpecialKey guifg=#4a4a59
 
 highlight RedundantSpaces ctermbg=red guibg=red
 match RedundantSpaces /\s\+$/
-Plugin 'wakatime/vim-wakatime'
